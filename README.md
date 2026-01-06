@@ -1,26 +1,15 @@
-# ejercicios_en_c
-ejercicios de programación utilizando lenguaje c 
-Este repositorio contiene mis primeros programas en lenguaje C, como parte de mi aprendizaje para programar microcontroladores y robots.
-##  Programa: promedio de notas
+# C Programming Projects 🧠⚙️
 
-Calcula el promedio entre dos calificaciones ingresadas por el usuario.
+This repository contains a collection of small projects and exercises
+written in the C programming language.
 
-### Código fuente
+The purpose of this repository is to practice fundamental concepts of C,
+including memory management, pointers, data structures, and low-level
+programming techniques.
 
-```c
-#include <stdio.h>
-int main() {
-    float examen1, examen2;
-    printf("Ingrese la nota del primer examen: ");
-    scanf("%f", &examen1);
-    printf("Ingrese la nota del segundo examen: ");
-    scanf("%f", &examen2);
+---
 
-    float notafinal = (examen1 + examen2) / 2;
+## 📂 Repository Structure
 
-    printf("Primer examen: %.2f\n", examen1);
-    printf("Segundo examen: %.2f\n", examen2);
-    printf("La nota final es: %.2f\n", notafinal);
-
-    return 0;
-}
+Each project is stored in its own folder and includes source code
+and a brief explanation.
